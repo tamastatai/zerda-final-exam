@@ -1,7 +1,7 @@
 # zerda-final-exam
  
 You have to solve only one problem, that is assigned to you. Please don't use
-direct built in functions for the given problem like: reverse, count, indexOf, groupBy, etc...
+direct built in functions for the given problem like: reverse, count, indexOf, groupBy, split, join, etc...
 
 
 ## 1.
@@ -32,7 +32,7 @@ all of it's elments should be zero, beside the main diagonal should be ones like
 ```
 
 ## 7.
-Create a function that takes a strinf and a letter, than returns an list that contains all the 
+Create a function that takes a string and a letter, than returns a list that contains all the 
 indexes where the letter occured in the string.
 
 ## 8.
@@ -50,7 +50,7 @@ Create a function that takes an array of integers and returns the average of the
 Create a function that takes two strings and decides if one is anagram of the other
 
 ## 12.
-Create a function that takes a matrix (list of lists) of numbers and returns an array that consists the sum of each row
+Create a function that takes a matrix (list of lists) of numbers and returns the sum of each rows as an array
  
 ## 13.
 Create a function that takes a list of strings and transforms it like:
@@ -96,7 +96,7 @@ Create a function that takes two strings and returns an array of characters that
 Create a function that takes a list of numbers and returns a new list where all the duplicate values are removed
 
 ## 20.
-Create a function that rakes a list of numbers and returns the second biggest element from it
+Create a function that takes a list of numbers and returns the second biggest element from it
 
 ## 21.
 Create a function that takes two list of numbers and returns a new list that only consists those numbers that are in the first array but not in the second
