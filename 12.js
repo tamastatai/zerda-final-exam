@@ -2,16 +2,25 @@
 
 'use strict';
 
-var matrix = [
+let arr = [
   [3, 4, 5, 6, 7],
   [8, 9, 10, 11, 12]
 ]
 
-var sum = 0;
-
-for(var i=0; i < matrix.length; i++){
-    console.log(matrix[i]);
-    sum += matrix[i][1];
+function countRows (array) {
+  let counter = 0;
+  for (let i = 0; i < array.length; i++) {
+    counter += array[i];
+  }
+  return counter;
 }
 
-console.log(sum);
+function countAll (arrList) {
+  let newArrList = [];
+  for (let i = 0; i < arrList.length; i++) {
+    newArrList.push(countRows(arrList[i]));
+  }
+  return newArrList;
+}
+
+console.log(countAll(arr));
